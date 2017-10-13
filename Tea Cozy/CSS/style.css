@@ -1,0 +1,137 @@
+body {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+}
+
+.header {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid seashell;
+  height: 70px;
+  z-index: 1;
+  position: fixed;
+  background-color: black;
+  top: 0;
+  padding: 10px 5px;
+}
+
+.logo {
+  padding-left: 10px;
+}
+
+nav span a {
+  color: seashell;
+  padding-right: 20px;
+}
+
+.section-mission {
+  display: flex;
+  justify-content: center;
+}
+
+.mission {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
+  height: 700px;
+  width: 1200px;
+  flex-direction: column;
+}
+
+.mission-title {
+  background-color: black;
+}
+
+.mission-text {
+  background-color: black;
+}
+
+h2, h4 {
+  margin: 0;
+  padding: 10px;
+}
+
+.section-totm {
+  display: flex;
+  padding-top: 60px;
+  flex-direction: column;
+  align-content: center;
+  width: 1000px;
+  margin:auto;
+}
+
+.title-totm {
+  text-align: center;
+}
+
+.tea-totm {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: center;
+}
+
+.tea img {
+  height: 200px;
+  width: 300px;
+  padding-right: 30px;
+  padding-top: 20px;
+}
+
+.tea span {
+  display: block;
+  padding-top: 10px;
+  font-weight: bold;
+}
+
+.section-location {
+  display: flex;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
+  height: 600px;
+  width: 1200px;
+  margin: auto;
+  flex-wrap: wrap;
+  margin-top: 70px;
+}
+
+.title-location, .sites-location {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  width: 1200px;
+}
+
+.title-location {
+  align-items: flex-end;
+  /*this aligns the h3 to the bottom of the container*/
+}
+
+.location {
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  padding-top: 15px;
+  align-items: center;
+  width: 300px;
+  opacity: 1;
+  height: 270px;
+  justify-content: center;
+  margin: 20px;
+}
+
+.contact {
+  height: 200px;
+}
+
+.copyright {
+  display: flex;
+  text-align: left;
+  padding-left:20px;
+}
